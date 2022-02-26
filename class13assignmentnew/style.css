@@ -1,0 +1,271 @@
+body{
+	margin:0;
+	font-family:Segoe UI;
+}
+
+
+/* header-area */
+.header-area{
+	background: #23232D;
+	color:#ffffff;
+	text-align:center;
+}
+.container{
+	width:60%;
+	margin:auto;
+	padding:30px 0;
+}
+.logo-area img {
+	width:70px;
+	height:auto;
+	margin-bottom:30px;
+}
+.slogan h2{
+	text-transform:uppercase;
+	font-size:40px;
+}
+.slogan p{
+	font-size:12px;
+}
+.next-section {
+	margin-top:80px;
+}
+.next-section a{
+	text-decoration:none;
+	color:#ffffff;
+}
+.next-section a i {
+	border:1px solid #ffffff;
+	font-size:14px;
+	height:14px;
+	width:14px;
+	border-radius:50%;
+	padding:10px 10px;
+}
+
+/* what-id-do section */
+
+.what-i-do{
+	background:url('images/background.png');
+	background-size:cover;
+	overflow:hidden;
+	
+}
+.content p {
+	color: #494E50;
+	font-size: 16px;
+	text-align:center;
+}
+.content .vlad {
+	margin:25px 0;
+}
+.what-i-do h2 {
+	color: #474C50;
+	font-size:40px;
+	text-transform: uppercase;
+	text-align:center;
+}
+.col-1-3 {
+	width:32%;
+	float:left;
+	overflow:hidden;
+	margin-right:2%;
+}
+.col-1-3:nth-child(3){
+	margin-right:0;
+}
+.col-1-3 h4{
+	color:#444B51;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:800;
+}
+.col-1-3 p {
+	color:#888a8b;
+	font-size:12px;
+	font-weight:600;
+	padding-bottom:30px;
+}
+
+/* my-work area */
+
+.my-work-area {
+	background:#23232D;
+	overflow:hidden;
+	padding:30px 0;
+}
+.my-work-area h2 {
+	color:#ffffff;
+	font-size:40px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.work-category {
+		overflow:hidden;
+		margin-bottom:30px;
+}
+.work-category ul {
+	list-style:none;
+	margin :0;
+	text-align:center;
+	
+}
+.work-category ul li{
+	display:inline;
+	margin:0 5px;
+}
+.work-category ul li a{
+	color: #ffffff;
+	text-transform:capitalize;
+	text-decoration:none;
+	display:inline-block;
+	border: 2px solid transparent;
+	
+}
+.work-category ul li:hover a {
+	border-bottom:2px solid #7B78C9;
+}
+.work-category .current {
+	border-bottom:2px solid #7B78C9;
+}
+.col-1-3 img {
+	width:100%;
+	height:auto;
+}
+.col-1-3:nth-child(6){
+	margin-right:0;
+}
+.work-column{
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.work-column h4{
+		color:#ffffff;
+	text-transform:capitalize;
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	margin-top: 5px;
+	margin-bottom:10px;
+}
+.work-column a {
+	text-decoration:none;
+
+}
+.work-column h5{
+	text-transform:capitalize;
+	font-size:12px;
+	color:#6D7285;
+	text-align:center;
+	font-weight:normal;
+	margin-top:2px;
+}
+.button{
+	text-align:center;
+	margin-top:20px;
+	
+	
+}
+.button a{
+	text-decoration:none;
+	background: #7B78C9;
+	border-radius:5px;
+	color:#ffffff;
+	padding:10px 35px;
+	text-transform:capitalize;
+	margin-top:35px;
+}
+
+/* photography-area */ 
+.photography-area{
+		background:url('images/background.png');
+	background-size:cover;
+}
+
+.photography-area h2{
+	color:#434A50;
+	font-size:40px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.photography-area p {
+	color:#838486;
+	font-size:16px;
+	text-align:center;
+}
+.photography-column{
+	overflow:hidden;
+}
+.photography-column img{
+	margin-bottom:10px;
+}
+.photography-area .button{
+	padding:30px 0;
+}
+
+/* subscribe-area */
+
+.subscribe-area{
+	background:#23232D;
+	text-align:center;
+	padding:80px 0 80px 0;
+}
+.infinite img{
+	width:10%;
+	height:auto;
+	margin-bottom:20px;
+}
+.subscribe-area p{
+	color:#ffffff;
+	font-size:13px;
+	font-weight:normal;
+}
+.input{
+	margin-top:50px;
+		
+	
+}
+.input input[type="text"]{
+	color:#D2D2D2;
+	font-size:12px;
+	border-radius:2px;
+	border:1px solid transparent;
+	padding:6px 20px ;
+	
+	
+}
+.input input[type="submit"]{
+	background:#7B78C9;
+	color: #ffffff;
+	border:1px solid transparent;
+	border-radius:2px;
+	padding: 5px 20px;
+	
+}
+
+/* footer-area */
+.footer-area{
+	text-align:center;
+}
+.icons{
+	margin: 30px 0 50px 0;
+}
+.icons ul {
+	list-style:none;
+}
+.icons ul li{
+	display:inline;
+	margin-right: 30px;
+}
+.icons ul li a {
+	text-decoration:none;
+	color:#DBDBDB;
+	font-size:30px;
+	
+}
+.copyright p{
+	text-transform:capitalize;
+	color:#DBDBDB;
+	font-size:15px;
+	font-weight:600;
+}
